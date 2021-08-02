@@ -1,17 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import { Question } from './Question';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Work In Progress!
-        </p>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <header className="App-header">
+                <p>
+                    Work In Progress!
+                </p>
+                <Question />
+            </header>
+        </div>
+    );
 }
 
 export default App;
