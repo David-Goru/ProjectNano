@@ -1,9 +1,7 @@
-﻿export function Answers({ answers }) {
+﻿import { Answer } from "./Answer";
+
+export function Answers({ answers }) {
     return answers.map(({ text }) =>
         <Answer text={text} />
     );
-}
-
-function Answer({ text }) {
-    return <p>{text}</p>;
 }
