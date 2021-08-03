@@ -1,10 +1,10 @@
 ﻿import { Answer } from "./Answer";
 
 export function Answers({ answers, questionIndex }) {
-    return answers.map(({ text }, index) =>
+    return answers.map((answer, index) =>
         <Answer
             key={questionIndex + "#" + index}
-            text={text}
+            answer={answer}
         />
     );
 }

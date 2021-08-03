@@ -1,0 +1,22 @@
+.unselected {
+    border-radius: 10px;
+    background-color: steelblue;
+    padding: 5%;
+    margin: 5%;
+}
+
+.selected {
+    border-radius: 10px;
+    padding: 5%;
+    margin: 5%;
+}
+
+.correct {
+    background-color: darkgreen;
+    color: lightgreen;
+}
+
+.incorrect {
+    background-color: darkred;
+    color: lightcoral;
+}

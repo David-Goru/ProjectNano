@@ -1,10 +1,10 @@
 ﻿import { Answers } from "./Answers";
 
-export function Question({ question = "Not a question!", answers = [{ text: "Not an answer 1" }, { text: "Not an answer 2" }, { text: "Not an answer 3" }] }) {
+export function Question({ question, index }) {
     return (
         <div>
-            <h4> {question} </h4>
-            <Answers answers={answers} questionIndex={0} />
+            <h4>Question: {question.statement}</h4>
+            <Answers answers={question.answers} questionIndex={index} />
         </div>
     );
 }
