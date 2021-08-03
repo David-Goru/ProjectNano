@@ -1,0 +1,9 @@
+.Title {
+    display: flex;
+    font-size: calc(10px + 5vmin);
+    box-shadow: 0 0 15px #1a1a1a;
+    border-radius: 10px;
+    padding: 1%;
+    background-color: #1a1a1a;
+    color: white;
+}

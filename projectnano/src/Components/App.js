@@ -1,13 +1,12 @@
 import './App.css';
 import { Question } from './Question';
+import { Title } from './Title';
 
 function App() {
     return (
         <div className="App">
             <header className="App-header">
-                <p>
-                    Work In Progress!
-                </p>
+                <Title text="Project Nano" />
                 <Question />
             </header>
         </div>

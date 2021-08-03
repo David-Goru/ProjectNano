@@ -4,7 +4,7 @@ export function Question({ question = "Not a question!", answers = [{ text: "Not
     return (
         <div>
             <h4> {question} </h4>
-            <Answers answers={answers} />
+            <Answers answers={answers} questionIndex={0} />
         </div>
     );
 }
