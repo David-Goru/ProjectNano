@@ -1,14 +1,12 @@
-.unselected {
+.answer {
     border-radius: 10px;
-    background-color: steelblue;
-    padding: 5%;
-    margin: 5%;
+    padding: 5px;
+    margin: 20px 5px 5px 25%;
+    width: 50%;
 }
 
-.selected {
-    border-radius: 10px;
-    padding: 5%;
-    margin: 5%;
+.unselected {
+    background-color: steelblue;
 }
 
 .correct {

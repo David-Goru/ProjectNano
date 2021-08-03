@@ -17,20 +17,34 @@ function App() {
 }
 
 const defaultQuestions = [{
-    statement: "Not a question!",
-    answers: [{
-        text: "Not an answer 1",
-        valid: true
-    }, {
-        text: "Not an answer 2",
-        valid: false
-    }, {
-        text: "Not an answer 3",
-        valid: false
-    }, {
-        text: "Not an answer 4",
-        valid: false
-    }]
-}];
+        statement: "What is the name of the world's longest river?",
+        answers: [{
+            text: "Nile",
+            valid: true
+        }, {
+            text: "Amazon River",
+            valid: false
+        }, {
+            text: "Yangtze",
+            valid: false
+        }, {
+            text: "Niger",
+            valid: false
+    }] }, {
+        statement: "What was the name of the actor who played Jack Dawson in Titanic?",
+        answers: [{
+            text: "Brad Pitt",
+            valid: false
+        }, {
+            text: "Tom Hank",
+            valid: false
+        }, {
+            text: "Leonardo DiCaprio",
+            valid: true
+        }, {
+            text: "Johnny Depp",
+            valid: false
+        }]
+    }];
 
 export default App;
