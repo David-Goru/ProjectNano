@@ -41,16 +41,58 @@ const defaultQuestions = [{
             text: "Niger",
             valid: false
     }] }, {
+        statement: "How long is an Olympic swimming pool (in meters)?",
+        answers: [{
+            text: "50 meters",
+            valid: true
+        }, {
+            text: "10 meters",
+            valid: false
+        }, {
+            text: "25 meters",
+            valid: false
+        }, {
+            text: "150 meters",
+            valid: false
+    }] }, {
+        statement: "What is 'cynophobia'?",
+        answers: [{
+            text: "Fear of dogs",
+            valid: true
+        }, {
+            text: "Fear of cats",
+            valid: false
+        }, {
+            text: "Fear of rats",
+            valid: false
+        }, {
+            text: "Fear of birds",
+            valid: false
+    }] }, {
+        statement: "What is the name of the largest ocean on earth?",
+        answers: [{
+            text: "Pacific Ocean",
+            valid: true
+        }, {
+            text: "Atlantic Ocean",
+            valid: false
+        }, {
+            text: "Indian Ocean",
+            valid: false
+        }, {
+            text: "Arctic Ocean",
+            valid: false
+    }] }, {
         statement: "What was the name of the actor who played Jack Dawson in Titanic?",
         answers: [{
-            text: "Brad Pitt",
-            valid: false
+            text: "Leonardo DiCaprio",
+            valid: true
         }, {
             text: "Tom Hank",
             valid: false
         }, {
-            text: "Leonardo DiCaprio",
-            valid: true
+            text: "Brad Pitt",
+            valid: false
         }, {
             text: "Johnny Depp",
             valid: false
