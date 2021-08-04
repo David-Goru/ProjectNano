@@ -5,16 +5,16 @@
     width: 50%;
 }
 
-.unselected {
+.answer-unselected {
     background-color: steelblue;
 }
 
-.correct {
+.answer-correct {
     background-color: darkgreen;
     color: lightgreen;
 }
 
-.incorrect {
+.answer-incorrect {
     background-color: darkred;
     color: lightcoral;
 }
